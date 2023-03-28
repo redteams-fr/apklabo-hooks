@@ -1,0 +1,10 @@
+{   
+	"Name":"Header function",
+    "Description": "Generic function",
+    "default_enabled": true,
+    "default_locked": true,
+    "hide_display_message": true,
+
+    "parameters":[
+    ]
+}

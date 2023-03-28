@@ -1,0 +1,11 @@
+{   
+    "Description": "Intercept System_exit function",
+    "default_enabled": true,
+    "default_locked": false,
+    "display_stacktrace": false,
+    "display_message": true,
+	"Name":"SystemExit bypass",
+
+    "parameters":[
+    ]
+}

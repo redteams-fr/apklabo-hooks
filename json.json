@@ -1,0 +1,11 @@
+{   
+    "Description": "Json hook",
+	"Name":"Json hook",
+    "default_enabled": false,
+    "default_locked": false,
+    "parameters":[
+        {
+        }        
+
+    ]
+}

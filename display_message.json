@@ -1,0 +1,21 @@
+{   
+	"Name":"Display message",
+    "Description": "display_test_message",
+    "default_enabled": false,
+    "default_locked": false,
+
+    "parameters":[
+        {
+            "name":"TOAST_TEXT_TO_DISPLAY",
+            "Description":"Text to display in toast",
+            "DefaultValue":"Zog Zog !!!",
+            "tooltip":"Text display in toast"
+        },
+        {
+            "name":"LOGCAT_TEXT_TO_DISPLAY",
+            "Description":"Text to display in logcat",
+            "DefaultValue":"Zog Zog !!!",
+            "tooltip":"Text display in logcat"
+        }
+    ]
+}
