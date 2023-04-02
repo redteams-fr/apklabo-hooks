@@ -1,0 +1,11 @@
+{   
+    "Description": "Antiroot bypass",
+	"Name":"Antiroot bypass",
+    "default_enabled": false,
+    "default_locked": false,
+    "parameters":[
+        {
+        }        
+
+    ]
+}
