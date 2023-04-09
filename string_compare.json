@@ -9,25 +9,30 @@
             "name":"MAX_SIZE",
             "Description":"Max size",
             "DefaultValue":30,
-            "tooltip":""
+            "tooltip":"",
+            "Type": "int",
+            "readonly":true
         },
         {
             "name":"MIN_SIZE",
             "Description":"Min size",
             "DefaultValue":6,
-            "tooltip":""
+            "tooltip":"",
+            "Type": "int"
         },
         {
             "name":"STRING_MATCH",
             "Description":"String to match",
             "DefaultValue":"",
-            "tooltip":"Leave empty to match all"
+            "tooltip":"Leave empty to match all",
+            "type": "string"
         },
         {
             "name":"FORCE_RETURN_TRUE",
             "Description":"Force always match",
             "DefaultValue":false,
-            "tooltip":"Force return True when STRING_MATCH"
+            "tooltip":"Force return True when STRING_MATCH",
+            "type": "bool"           
         }
     ]
 }
