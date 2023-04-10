@@ -1,5 +1,5 @@
 {   
-	"Name":"Display message",
+    "Name":"Display message",
     "Description": "display_test_message",
     "default_enabled": false,
     "default_locked": false,
@@ -9,13 +9,17 @@
             "name":"TOAST_TEXT_TO_DISPLAY",
             "Description":"Text to display in toast",
             "DefaultValue":"Zog Zog !!!",
-            "tooltip":"Text display in toast"
+            "tooltip":"Text display in toast",
+            "type": "string",
+            "readonly":false
         },
         {
             "name":"LOGCAT_TEXT_TO_DISPLAY",
             "Description":"Text to display in logcat",
             "DefaultValue":"Zog Zog !!!",
-            "tooltip":"Text display in logcat"
+            "tooltip":"Text display in logcat",
+            "type": "string",
+            "readonly":false
         }
     ]
 }
